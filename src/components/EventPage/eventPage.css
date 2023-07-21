@@ -1,0 +1,95 @@
+.mainDiv {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textDivOne {
+    margin-top: 20px;
+}
+
+.formMainDiv {
+    margin: 40px;
+    padding: 20px;
+}
+
+.rowDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imageMainDiv {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.imageSubDiv {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+
+.image {
+    margin-left: 60px;
+}
+
+.inputDiv {
+    width: 550px;
+    padding: 20px;
+}
+
+.buttonMainDiv {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 40%;
+    margin-top: 30px;
+}
+
+@media (max-width:400px) {
+    .mainDiv {
+        width: 95%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .formMainDiv {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .rowDiv {
+        display: block;
+    }
+
+    .imageMainDiv {
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        margin-right: 0;
+        padding: 15px;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .inputDiv {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .buttonMainDiv {
+        width: 60%;
+    }
+}
